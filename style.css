@@ -1,0 +1,27 @@
+body{
+  background-color: #202020;
+  color: #dedede;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+input{
+  border: 1px solid #545454;
+  background-color: #202020;
+  color: #dedede;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+input:disabled{
+  background-color: #404040;
+  color: #dedede;
+}
+a:link{
+  color: #dedede;
+}
+a:visited{
+  color: #aaaaaa;
+}
+a:active{
+  color: #666666;
+}

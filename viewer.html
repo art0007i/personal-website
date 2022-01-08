@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>art0007i's profile viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="viewer.css">
+  <script src="viewer.js"></script>
+</head>
+<body>
+  <h1>Profile.json viewer/crawler</h1>
+  Back to <a href="/">home</a>
+  <p>Use this tool to view and crawl your profile.json file.<br>
+  Ctrl + Click on people links to follow them<br>
+  Shift + Click on people links to instantly look them up in the profile viewer.<br>
+  Regular click will insert them into the search bar.
+  </p>
+  <input type="text" id="profile-link" placeholder="Enter a website URL"> <input id="submit" type="button" value="Go" onclick="go()"><br>
+  <span id="error" style="display: none;">Error</span>
+  <div id="warning" style="display: none;">Warning</div><br>
+  <div id="popup">
+    Inserted into search!
+  </div>
+  <div id="profile">
+    <div id="info">
+      <img id="image" src="" alt="Profile image">
+      <div>
+        <p id="name">test</p>
+        <a id="site" href="https://example.com">example.com</a>
+      </div>
+    </div>
+    <div id="list">
+      <div>
+        <div id="birthday" style="display: none;">
+          <span>Birthday: </span>
+          <span id="birthday-text">1970-01-01</span>
+        </div>
+        <div id="pronouns">
+          <span>Pronouns: </span>
+          <span id="pronouns-text">unavailable</span>
+        </div>
+        <div id="people">
+          <span>People: </span>
+          <ul id="people-text">
+            <li>
+              <a href="null">Person-name</a>
+            </li>
+            <li>
+              <a href="null">Person-name</a>
+            </li>
+            <li>
+              <a href="null">Person-name</a>
+            </li>
+          </ul>
+        </div>
+        <div id="socialMedia">
+          <span>Socials: </span>
+          <div id="socialMedia-text">
+            <div class="social-div">
+              <img src="" alt="pfp" class="social-pfp">
+              <div>
+                <img src="images/icons/twitter.png" class="social-icon"> Twitter<br>
+                <a href="https://twitter.com/FakeUser">FakeUser</a>
+              </div>
+            </div>
+            <div class="social-div">
+              <img src="" alt="pfp" class="social-pfp">
+              <div>
+                <img src="images/icons/neos.png" class="social-icon"> Neos<br>
+                FakeUser (U-FakeUser)
+              </div>
+            </div>
+            <div class="social-div">
+              <img src="" alt="pfp" class="social-pfp">
+              <div>
+                <img src="images/icons/github.png" class="social-icon"> GitHub<br>
+                <a href="https://github.com/FakeUser">FakeUser</a>
+              </div>
+            </div>
+            <div class="social-div">
+              <div>
+                UnrecognizedSocial<br>
+                <a href="https://UnrecognizedSocial.com/FakeUser">FakeUser</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div>
+          <hr>
+          <span>Unrecognized Extensions: </span>
+          <ul id="unrecognized">
+            <li>
+              test: {"what": "yes"}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <iframe id="iframe" src='https://example.com'>
+  </iframe>
+</body>
+</html>
