@@ -1,31 +1,31 @@
 {
-	"site": "0007i.art",
-	"name": "art0007i",
-	"image": "https://0007i.art/images/profile.png",
-	"birthday": "2003-05-09",
-	"pronouns": "he/him",
-	"people": [
-		"jeana.xyz",
-		"punapple.tk",
-		"rep-tiled.tk",
-    "psychpsyo.tk",
-    "hidi.tk"
-	],
-	"extensions": {
-		"socialMedia": {
-			"twitter": {
-				"name": "art0007i",
-				"link": "https://twitter.com/art0007i",
-				"handle": "art0007i"
-			},
-			"neos": {
-				"name": "art0007i",
-				"userID": "U-art0007i"
-			},
-			"github": {
-				"name": "art0007i",
-				"link": "https://github.com/art0007i"
-			}
-		}
-	}
+    "site": "0007i.art",
+    "name": "art0007i",
+    "image": "https://0007i.art/images/profile.png",
+    "birthday": "2003-05-09",
+    "pronouns": "he/him",
+    "people": [
+        "jeana.xyz",
+        "punapple.tk",
+        "rep-tiled.tk",
+        "psychpsyo.tk",
+        "www.hidi.tk"
+    ],
+    "extensions": {
+        "socialMedia": {
+            "twitter": {
+                "name": "art0007i",
+                "link": "https://twitter.com/art0007i",
+                "handle": "art0007i"
+            },
+            "neos": {
+                "name": "art0007i",
+                "userID": "U-art0007i"
+            },
+            "github": {
+                "name": "art0007i",
+                "link": "https://github.com/art0007i"
+            }
+        }
+    }
 }
