@@ -1,15 +1,12 @@
 {
-    "site": "0007i.art",
+    "site": "art0007i.me",
     "name": "art0007i",
-    "image": "https://0007i.art/images/profile.png",
+    "image": "https://art0007i.me/images/profile.png",
     "birthday": "2003-XX-XX",
     "pronouns": "he/him",
     "people": [
-        "jeana.xyz",
-        "punapple.tk",
-        "rep-tiled.tk",
-        "psychpsyo.com",
-        "www.hidi.tk"
+        "punapple.github.io/Website/",
+        "psychpsyo.com"
     ],
     "extensions": {
         "socialMedia": {
@@ -18,7 +15,7 @@
                 "link": "https://twitter.com/art0007i",
                 "handle": "art0007i"
             },
-            "neos": {
+            "resonite": {
                 "name": "art0007i",
                 "userID": "U-art0007i"
             },
